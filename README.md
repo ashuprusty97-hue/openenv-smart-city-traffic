@@ -28,3 +28,23 @@ The agent observes:
 - Rewards reduction in total queue length  
 
 ## Project Structure
+
+## How to Run
+
+pip install -r requirements.txt  
+python examples/run_random_agent.py  
+
+## Key Features
+- OpenEnv-style API (step, reset, state)
+- Real-world inspired traffic simulation
+- Lightweight and easily extensible design
+- Suitable for reinforcement learning algorithms such as DQN and PPO
+
+## Future Improvements
+- Multi-intersection traffic network
+- Multi-agent reinforcement learning
+- Integration with deep RL frameworks
+- Visualization dashboard
+
+## Author
+Ashutosh
